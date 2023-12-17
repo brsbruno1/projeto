@@ -43,10 +43,9 @@ for ( i = 0; i < quantidade; i++)
  if (comparacao == 0)
  {
     return produto[i].nome;
- }else{
-    printf("Produto Nao Encontrado\n");
  }
 }
+printf("Produto Nao Encontrado\n");
 }
 
 int main()
